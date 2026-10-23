@@ -1,0 +1,123 @@
+/*  ------------ Global Styles ------------------ */
+
+/* Box Model Fix */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* Center Container with Flexbox */
+html,
+body {
+    /* Set full height to the layout viewport */
+    height: 100vh;
+    margin: 0;
+    /* Use Flexbox to align content */
+    display: flex;
+    justify-content: center;
+    /* Horizontally centers the box */
+    align-items: center;
+    /* Vertically centers the box */
+}
+
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    min-height: 100vh;
+}
+
+/*  ------------ Profile Container  ------------ */
+
+.profile {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+/*  ------------ User Image  ------------------- */
+
+.user-picture {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.picture-container {
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/*  ------------ User Name  -------------------- */
+
+.user-name {
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+/*  ------------ User Adress  ------------------ */
+
+.user-address {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+/*  ------------ User Bio  --------------------- */
+
+.user-bio {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+/*  ------------ Social Links  ----------------- */
+
+.user-socials {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    max-width: 360px;
+}
+
+li>a:any-link {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    background-color: hsl(0, 0%, 20%);
+    display: block;
+    width: 280px;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+}
+
+li>a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+li>a:focus {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    outline: none;
+}
