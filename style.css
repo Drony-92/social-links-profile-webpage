@@ -29,7 +29,7 @@ body {
 body {
     background-color: hsl(0, 0%, 8%);
     font-family: "Inter", sans-serif;
-    font-size: 0 875em;
+    font-size: 0.875em;
     color: hsl(0, 0%, 100%);
     min-height: 100vh;
 }
