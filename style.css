@@ -111,14 +111,12 @@ li>a:any-link {
 }
 
 li>a:hover {
-    /* background-color: hsl(75, 94%, 57%); */
-    background-color: hsl(67°, 76%, 52%);
+    background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
 }
 
 li>a:focus {
-    /* background-color: hsl(75, 94%, 57%); */
-    background-color: hsl(67°, 76%, 52%);
+    background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
     outline: none;
 }
